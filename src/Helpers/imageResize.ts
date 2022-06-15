@@ -7,7 +7,7 @@ const ImageResize = async (
   name: string,
   width: string,
   height: string
-) => {
+) : Promise<false | string | undefined> => {
   const pathImage = file.split(".")[0] + `-${width}x${height}.jpg`;
   let imgWidth: number;
   let imgHeight: number;

@@ -41,24 +41,44 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var path_1 = __importDefault(require("path"));
 var supertest_1 = __importDefault(require("supertest"));
+var imageResize_1 = __importDefault(require("../Helpers/imageResize"));
 var index_1 = __importDefault(require("../Routes/index"));
+var fs = require("fs");
 var port = 3001;
 process.env.IMAGE_DIRECTORY = path_1.default.resolve(__dirname, "../../images");
 var request = (0, supertest_1.default)(index_1.default);
 var file = "santamonica";
 var width = "900";
 var height = "900";
-// const imageDimensions = file.split(".")[0] + `-${width}x${height}.jpg`;
-// const thumb = path.join(
-//   process.env.IMAGE_DIRECTORY as string,
-//   "thumbnails",
-//   file
-// );
-// const thumbDimensions = path.join(
-//   process.env.IMAGE_DIRECTORY as string,
-//   "thumbnails",
-//   imageDimensions
-// );
+describe("Test image resize function", function () {
+    it("resize the image", function () { return __awaiter(void 0, void 0, void 0, function () {
+        var pathName, error;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    pathName = path_1.default.join(process.env.IMAGE_DIRECTORY, "thumbnails", 'palmtunnel');
+                    if (fs.existsSync(path_1.default)) {
+                        fs.unlink(path_1.default, function (err) {
+                            if (err)
+                                throw (err);
+                        });
+                    }
+                    return [4 /*yield*/, (0, imageResize_1.default)(pathName, 'palmtunnel', '350', '300')];
+                case 1:
+                    _a.sent();
+                    error = '';
+                    try {
+                        error = null;
+                    }
+                    catch (_b) {
+                        error = "File not created";
+                    }
+                    expect(error).toBeNull();
+                    return [2 /*return*/];
+            }
+        });
+    }); });
+});
 describe("api", function () {
     it("gets the api endpoint", function () { return __awaiter(void 0, void 0, void 0, function () {
         var response;

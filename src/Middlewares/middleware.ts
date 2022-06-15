@@ -6,7 +6,7 @@ const ProcessImage = async (
   req: Request,
   res: Response,
   next: NextFunction
-) => {
+) : Promise<false | string | undefined> => {
   const { name, width, height } = req.query;
 
   if (!(name && width && height)) {
@@ -19,6 +19,7 @@ const ProcessImage = async (
     "thumbnails",
     name as string
   );
+
   const file = await ImageResize(
     imagePath,
     name as string,

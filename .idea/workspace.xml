@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2aa02db7-2a8f-4900-9157-87462db58e41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/tests/indexSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/tests/indexSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Middlewares/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Middlewares/middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/indexSpec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/indexSpec.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1yMWv17YGGaLBdmfHJtj9t6wj2m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/thumbnails" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\RinaPC\Desktop\fullstack-projects\ImageProcessing\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HomePC\Desktop\ImageProcessing" />
+      <recent name="C:\Users\HomePC\Desktop\ImageProcessing\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HomePC\Desktop\ImageProcessing\images\thumbnails" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2aa02db7-2a8f-4900-9157-87462db58e41" name="Default Changelist" comment="" />
+      <created>1632062164133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632062164133</updated>
+      <workItem from="1632062169380" duration="1554000" />
+      <workItem from="1632480219071" duration="8735000" />
+      <workItem from="1632666955901" duration="5621000" />
+      <workItem from="1633175357550" duration="11651000" />
+      <workItem from="1633264868714" duration="7535000" />
+      <workItem from="1648401654586" duration="300000" />
+      <workItem from="1655054981595" duration="6531000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="541" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1632483732477">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="541" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.870/1600.0.1280.1024@0.0.1600.870" timestamp="1632483732477" />
+    <state x="530" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1632496203510">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="530" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.870/1600.0.1280.1024@0.0.1600.870" timestamp="1632496203510" />
+    <state x="580" y="190" key="FileChooserDialogImpl" timestamp="1632667515941">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="580" y="190" key="FileChooserDialogImpl/0.0.1600.870/1600.0.1280.1024@0.0.1600.870" timestamp="1632667515941" />
+    <state x="491" y="259" key="com.intellij.ide.util.TipDialog" timestamp="1633264868380">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="491" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.870/1600.0.1280.1024@0.0.1600.870" timestamp="1632062169012" />
+    <state x="1993" y="305" key="com.intellij.ide.util.TipDialog/0.0.1600.870/1600.0.1280.1024@1600.0.1280.1024" timestamp="1633175378221" />
+    <state x="491" y="259" key="com.intellij.ide.util.TipDialog/0.0.1600.870@0.0.1600.870" timestamp="1633264868380" />
+    <state x="1903" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1633178781327">
+      <screen x="1600" y="0" width="1280" height="1024" />
+    </state>
+    <state x="1903" y="221" width="672" height="678" key="search.everywhere.popup/0.0.1600.870/1600.0.1280.1024@1600.0.1280.1024" timestamp="1633178781327" />
+  </component>
+</project>

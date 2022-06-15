@@ -7,14 +7,14 @@ const port = 3000;
 process.env.IMAGE_DIRECTORY = path.resolve(__dirname, "../../images");
 app.use(express.static(__dirname + "/../../images"));
 
-app.get("/", (req, res, next) => {
+app.get("/", (req, res, next):void => {
   res.redirect("/api/images");
   next();
 });
 
 app.get("/api/images", ProcessImage);
 
-app.listen(port, () => {
+app.listen(port, ():void => {
   console.log(`Server started at port ${port}`);
 });
 
